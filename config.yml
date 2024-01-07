@@ -61,8 +61,8 @@ permalinks:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: Homepage and blog by Karn Wong
-  author: Karn Wong
+  description: Homepage and blog by S. Tyler Williams
+  author: S. Tyler Williams
 
   assets:
     disableFingerprinting: true
@@ -79,28 +79,26 @@ params:
   # ShowToc: true
 
   homeInfoParams:
-    Title: Karn Wong
-    Content: Platform engineer | HashiCorp Ambassador | AWS SA-Associate & GCP PCA Certified
+    Title: S. Tyler Williams
+    Content: Chief Data Scientist
   TocSide: left # or 'right'
 
   # profileMode:
   #   enabled: true
-  #   title: Karn Wong
+  #   title: S. Tyler Williams
   #   subtitle: Head of platform engineering | HashiCorp Ambassador | AWS Community Builder | GCP Certified
 
   socialIcons:
     - name: github
-      url: https://github.com/kahnwong
+      url: https://github.com/stephenw17
     - name: linkedin
-      url: https://www.linkedin.com/in/karnsiree-w-7b535b202/
+      url: https://www.linkedin.com/in/stephentylerwilliams/
     - name: email
-      url: mailto:karn@karnwong.me
+      url: mailto:stephen.tyler.williams@gmail.com
     - name: cv
       url: /resume.html
     - name: RsS
       url: index.xml
-    - name: webring
-      url: https://webring.wonderful.software#karnwong.me
 
 taxonomies:
   category: categories
