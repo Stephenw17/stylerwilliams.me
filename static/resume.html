@@ -1,0 +1,1636 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>S. Tyler Williams</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after,
+.level.bilingual.proficiency .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">S. Tyler Williams</h1>
+    			<h2 class="label">Chief Data Scientist | Durian Corp</h2>
+    		</div>
+    
+    
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fas fa-external-link-alt"></span>
+    				<a class="hide-href-print" target="_blank" target="_blank" href="https://stylerwilliams.me">https://stylerwilliams.me</a>
+    			</div>
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:stephen.tyler.williams@gmail.com">stephen.tyler.williams@gmail.com</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/stephenw17">stephenw17</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/stephentylerwilliams/">stephentylerwilliams</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud Native
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Docker</li>
+    				<li>Kubernetes</li>
+    				<li>Helm</li>
+    				<li>K3S</li>
+    				<li>Harbor</li>
+    				<li>Grafana</li>
+    				<li>Prometheus</li>
+    				<li>Minio</li>
+    				<li>MLflow</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				DevOps
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Caddy</li>
+    				<li>Terraform</li>
+    				<li>GitHub Actions</li>
+    				<li>Proxmox</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Data / ML
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Apache Spark</li>
+    				<li>Apache Parquet</li>
+    				<li>Polars / Pandas / DuckDB</li>
+    				<li>Postgres / BigQuery</li>
+    				<li>Scikit-learn / Spark MLib</li>
+    				<li>DVC</li>
+    				<li>H3 / QGIS</li>
+    				<li>FastAPI / Pydantic / Pytest</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>AWS</li>
+    				<li>GCP</li>
+    				<li>Digital Ocean</li>
+    				<li>Cloudflare</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2019</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Chief Data Scientist</div>
+            <div class="company">Durian Corp</div>
+          </header>
+    
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.duriancorp.com">https://www.duriancorp.com</a>
+          </span>        <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p>Responsible for day-to-day operations of the data science team</p></li>
+              <li><p>Responsible for the design and implementation of the data platform and solution</p></li>
+              <li><p>Conducted regular training sessions for the data science team and clients</p></li>
+              <li><p>---</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Oct 2022</span>
+              <span class="endDate">- Dec 2023</span>
+            </div>
+            <div class="position">Head of platform engineering</div>
+            <div class="company">Baania</div>
+          </header>
+    
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.baania.com">https://www.baania.com</a>
+          </span>        <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p>Research and implement internal data platform v2, with CI/CD for integration and unit tests, dependencies and code changes</p></li>
+              <li><p>Use Terraform with Infracost to asses infrastructure cost to prune unused/underutilized resources, in turn reduce 33% of cloud cost per month (FinOps)</p></li>
+              <li><p>Design and implement end-to-end cloud-native application deployment (Terraform for infra/secrets, Helm for application deployment, GitHub Actions for CI/CD, Kubernetes for container orchestration)</p></li>
+              <li><p>Lead a major core product refactoring across ops, engineering and data (data engineering, data science and machine learning engineering). Affected areas: data pipelines, model training pipelines, real-time inference endpoints, database performance optimization, deployment pipelines, local development workflow</p></li>
+              <li><p>Lead a cloud migration from AWS to GCP</p></li>
+              <li><p>Introduce H3 spatial indexing to improve spatial queries performance. This also allows any system to obtain the performance gain, since it is not tied to execution engine with spatial support</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2022</span>
+              <span class="endDate">- Sep 2022</span>
+            </div>
+            <div class="position">Lead Data Engineer | Machine Learning Engineer | SRE</div>
+            <div class="company">Baania</div>
+          </header>
+    
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.baania.com">https://www.baania.com</a>
+          </span>        <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p>Enable backend team to perform auto-deployment to ECS with Terraform and GitHub Actions</p></li>
+              <li><p>Manage repo permissions / secrets / webhooks with Terraform</p></li>
+              <li><p>Research BI solution to consolidate fragmented dashboard platforms into a single one</p></li>
+              <li><p>Setup Grafana for centralized metrics and logs monitoring</p></li>
+              <li><p>Introduce Sourcegraph to help with code search and refactoring</p></li>
+              <li><p>Setup GitOps for Terraform to enable collaboration between different teams, in turn reducing configuration drift</p></li>
+              <li><p>Architect end-to-end machine learning project involving reproducible data / model training pipelines, hyper-parameter tuning, CI/CD for inference API endpoint (MLOps). Real-time model performance dashboard and tracing via request id are also implemented via Grafana</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2021</span>
+              <span class="endDate">- Jan 2022</span>
+            </div>
+            <div class="position">Senior Data Engineer</div>
+            <div class="company">Baania</div>
+          </header>
+    
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.baania.com">https://www.baania.com</a>
+          </span>        <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p>Reduce development time for ETL pipelines from a week to 1 day via workflow redesign + codebase refactoring</p></li>
+              <li><p>Mentor data engineers</p></li>
+              <li><p>Consult other teams as a platform engineer</p></li>
+              <li><p>Set up alerts & monitoring to automatically notify task failures (ChatOps)</p></li>
+              <li><p>Create a script to automatically grant postgres access permission based on user groups, with option for special permissions per-user basis</p></li>
+              <li><p>Optimize a large spark pipeline that fails often due to OOM with divide-and-conquer method for unlimited scaling</p></li>
+              <li><p>Reduce runtime for PR code quality checks by 90% to shorten feedback loop cycle</p></li>
+              <li><p>Set up secrets management using SOPS/Terraform/AWS SSM, for improved security and secrets rotation</p></li>
+              <li><p>Launch Baania Engineering Blog, a platform to showcase how Baania does things behind the scenes</p></li>
+              <li><p>Reduce employee onboarding time per employee from a few days to 30 minutes via a setup script to setup necessary tools, applications and environment for development</p></li>
+              <li><p>Optimize a nearby POI lookup in PostGIS against 4 million rows with lochash, in turn reducing query runtime and resources requirements. Runtime is reduced from 10 minutes to 2 seconds</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Apr 2018</span>
+              <span class="endDate">- Jan 2021</span>
+            </div>
+            <div class="position">Data Engineer</div>
+            <div class="company">Baania</div>
+          </header>
+    
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.baania.com">https://www.baania.com</a>
+          </span>        <div class="item" id="work-item">
+            <ul class="highlights">
+              <li><p>Create and maintain data gathering infrastructure for daily ingestion and processing to be stored in data lake (S3)</p></li>
+              <li><p>Create and optimize machine learning models to achieve near-realtime performance</p></li>
+              <li><p>Create and maintain ETL pipelines via task orchestrator to reduce data update frequency from once a month to daily</p></li>
+              <li><p>Deploy and maintain ML via cloud services to reduce ML deployment time from a day to within minutes</p></li>
+              <li><p>Mentor data scientists</p></li>
+              <li><p>Automate infrastructure and governance using Terraform</p></li>
+              <li><p>Package cron services to AWS ECS and invoke via AWS ECS Task to cut down cost from 50 USD / year to 0.1 USD / year</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2015</span>
+              <span class="endDate">- Dec 2018</span>
+            </div>
+            <div class="position">IT Support &amp; SysAdmin</div>
+            <div class="company">-</div>
+          </header>
+    
+           <div class="item" id="work-item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Projects <span class="item-count">(9)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">self-hosted</div>
+            <div class="date">
+              <span class="startDate">Dec 2017</span>
+              <span class="endDate">- Current</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/kahnwong/self-hosted/">https://github.com/kahnwong/self-hosted/</a>
+          </span>
+          <ul class="keywords">
+              <li>docker</li>
+              <li>kubernetes</li>
+              <li>helm</li>
+              <li>terraform</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Alternative / self-hosted version for popular subscription services: Netflix, Spotify, LastPass, Trello, Dropbox, NordVPN, etc.</p></li>
+                <li><p>Managed via docker-compose and helm</p></li>
+                <li><p>Use Caddy for reverse-proxy</p></li>
+                <li><p>Use terraform to manage DNS via Cloudflare</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">nix</div>
+            <div class="date">
+              <span class="startDate">Nov 2022</span>
+              <span class="endDate">- Current</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.karnwong.me/posts/2022/12/cross-platform-package-env-management-with-nix/">https://www.karnwong.me/posts/2022/12/cross-platform-package-env-management-with-nix/</a>
+          </span>
+          <ul class="keywords">
+              <li>Nix</li>
+              <li>environment</li>
+              <li>dotfiles</li>
+              <li>package manager</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>A cross-platform setup script that works with both Linux and Mac.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Proxmox VM Selector</div>
+            <div class="date">
+              <span class="startDate">Dec 2023</span>
+              <span class="endDate">- Dec 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/kahnwong/proxmox-vm-selector">https://github.com/kahnwong/proxmox-vm-selector</a>
+          </span>
+          <ul class="keywords">
+              <li>proxmox</li>
+              <li>tui</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>A simple TUI to select which Proxmox VM to start/stop.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">GKE Autopilot Cost Calculator</div>
+            <div class="date">
+              <span class="startDate">Sep 2023</span>
+              <span class="endDate">- Sep 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://gke-autopilot-cost-calculator.karnwong.me/">https://gke-autopilot-cost-calculator.karnwong.me/</a>
+          </span>
+          <ul class="keywords">
+              <li>streamlit</li>
+              <li>gke</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Calculate GKE Autopilot workloads cost.</p></li>
+                <li><p>Available for normal application deployments and spark-submit jobs.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">pgconn</div>
+            <div class="date">
+              <span class="startDate">Aug 2023</span>
+              <span class="endDate">- Aug 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/kahnwong/pgconn">https://github.com/kahnwong/pgconn</a>
+          </span>
+          <ul class="keywords">
+              <li>postgres</li>
+              <li>ssh tunneling</li>
+              <li>cli</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>pgcli wrapper to connect to PostgreSQL database specified in db.yaml. Proxy/tunnel connection is automatically created and killed when pgcli is exited.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Vercel - Multi Branch Deployment</div>
+            <div class="date">
+              <span class="startDate">Jun 2023</span>
+              <span class="endDate">- Jun 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://github.com/kahnwong/vercel-multi-branch-deployment">https://github.com/kahnwong/vercel-multi-branch-deployment</a>
+          </span>
+          <ul class="keywords">
+              <li>terraform</li>
+              <li>github actions</li>
+              <li>vercel</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Use GitHub Actions to deploy a frontend project from different branches (dev, uat, master), each with their own preview environment.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Spark on Kubernetes</div>
+            <div class="date">
+              <span class="startDate">Sep 2023</span>
+              <span class="endDate">- Sep 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.karnwong.me/posts/2023/09/spark-on-kubernetes/">https://www.karnwong.me/posts/2023/09/spark-on-kubernetes/</a>
+          </span>
+          <ul class="keywords">
+              <li>spark</li>
+              <li>kubernetes</li>
+              <li>minio</li>
+              <li>finops</li>
+              <li>devex</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Run spark jobs on kubernetes, which can be used both locally and on production environment.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Dataframe Frameworks Showdown</div>
+            <div class="date">
+              <span class="startDate">Apr 2023</span>
+              <span class="endDate">- Apr 2023</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.karnwong.me/posts/2023/04/duckdb-vs-polars-vs-spark/">https://www.karnwong.me/posts/2023/04/duckdb-vs-polars-vs-spark/</a>
+          </span>
+          <ul class="keywords">
+              <li>duckdb</li>
+              <li>polars</li>
+              <li>spark</li>
+              <li>dataframe</li>
+              <li>data engineering</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Benchmark performance between duckdb, polars and spark. In addition to runtime, RAM usage is also provided.</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Impute Pipelines</div>
+            <div class="date">
+              <span class="startDate">Nov 2019</span>
+              <span class="endDate">- Dec 2019</span>
+            </div>
+          </header>
+          <span class="website">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.karnwong.me/posts/2020/05/impute-pipelines/">https://www.karnwong.me/posts/2020/05/impute-pipelines/</a>
+          </span>
+          <ul class="keywords">
+              <li>Machine Learning</li>
+              <li>data science</li>
+              <li>hyperparameter tuning</li>
+          </ul>
+          <div class="item">
+            <ul class="highlights">
+                <li><p>Use machine learning to fill in missing data.</p></li>
+                <li><p>Utilize hyperparameter tuning to find the optimum parameters.</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2020
+              </span>
+              <span class="endDate">
+                - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Moderator / Staff &amp; Frequent Contributor
+              </div>
+              <div class="organization">
+                Data Engineering Discord
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2021
+              </span>
+              <span class="endDate">
+                - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Frequent Contributor
+              </div>
+              <div class="organization">
+                Data Science Discord
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2021
+              </span>
+              <span class="endDate">
+                - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Frequent Contributor
+              </div>
+              <div class="organization">
+                DevOps, SRE &amp; Infrastructure Discord
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2022
+              </span>
+              <span class="endDate">
+                - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Frequent Contributor
+              </div>
+              <div class="organization">
+                Data Engineer Cafe
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(4)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2010
+              </span>
+              <span class="endDate">
+              - 2012
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Masters
+              </div>
+              <div class="area">
+                Computational Linguistics (Natural Language Processing)
+              </div>
+              <div class="institution">
+                Massachusets Institute of Technology
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2011
+              </span>
+              <span class="endDate">
+              - 2012
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Masters
+              </div>
+              <div class="area">
+                Molecular Genetics
+              </div>
+              <div class="institution">
+                The Ohio State University
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2007
+              </span>
+              <span class="endDate">
+              - 2011
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelors
+              </div>
+              <div class="area">
+                Linguistics
+              </div>
+              <div class="institution">
+                The Ohio State University
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2007
+              </span>
+              <span class="endDate">
+              - 2011
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelors
+              </div>
+              <div class="area">
+                Molecular Genetics
+              </div>
+              <div class="institution">
+                The Ohio State University
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Certificates</h2>
+        </header>
+        <section id="certificates">
+            <section class="certificate-item">
+              <header class="clear">
+                  <div class="date">
+                    2023
+                  </div>
+                <div class="header-left">
+                    <div class="name">
+                      Data Science with Python Expert
+                    </div>
+                    <div class="issuer">
+                      IBM
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+              </div>
+              <div class="item">
+                  <span class="url">
+                    <span class="fas fa-external-link-alt"></span>
+                    <a target="_blank" href="https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url">https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url</a>
+                  </span>
+              </div>
+            </section>
+        </section>
+      </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+    
+          <header class="clear">
+            <span class="date">
+              1 Feb 2019
+            </span>
+            <div class="header-left">
+              <span class="name">
+                <span class="website">
+                  <span class="fas fa-external-link-alt"></span>
+                  <a target="_blank" href="http://kb.osu.edu/dspace/handle/1811/52072">Using Classification Technique for Customer Relationship Management based on Thai Social Media Data</a>
+                </span>
+              </span>
+              <span class="publisher">
+                in ICCAE
+              </span>
+            </div>
+           
+          </header>
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency native">
+              <em>Native</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Thai
+          </h3>
+          <div class="item">
+            <div class="level fluency professional prof">
+              <em>Professional Prof</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            German
+          </h3>
+          <div class="item">
+            <div class="level fluency native">
+              <em>Native</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Humanities
+          </h3>
+          <ul class="keywords">
+            <li>Anthropology</li>
+            <li>Linguistics</li>
+            <li>Psychology</li>
+            <li>Sociology</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Music
+          </h3>
+          <ul class="keywords">
+            <li>Symphonic Heavy Metal</li>
+            <li>Power Metal</li>
+            <li>Folk Metal</li>
+            <li>Classical Crossover</li>
+            <li>Operatic Pop</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Technology
+          </h3>
+          <ul class="keywords">
+            <li>Platform Engineering</li>
+            <li>DevX</li>
+            <li>Kubernetes</li>
+            <li>DevOps / DataOps / MLOps</li>
+            <li>Scaling &amp; Optimization</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
