@@ -5,6 +5,11 @@ title: Karn Wong
 paginate: 5
 theme: PaperMod
 
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
