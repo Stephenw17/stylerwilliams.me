@@ -1,24 +1,28 @@
 ---
 basics:
-  name: Karn Wong
-  label: Platform engineer | HashiCorp Ambassador | AWS & GCP Certified | AWS Community Builder
-  email: karn@karnwong.me
+  name: S. Tyler Williams
+  label: Chief Data Scientist | Durian Corp
+  email: stephen.tyler.williams@gmail.com
   phone: ""
-  website: https://karnwong.me
+  website: https://stylerwilliams.me
   profiles:
     - network: Github
-      username: kahnwong
-      url: https://github.com/kahnwong
+      username: stephenw17
+      url: https://github.com/stephenw17
     - network: LinkedIn
-      username: karnsiree-w-7b535b202
-      url: https://www.linkedin.com/in/karnsiree-w-7b535b202/
+      username: stephentylerwilliams
+      url: https://www.linkedin.com/in/stephentylerwilliams/
 work:
-  - name: Data Cafe (Thailand)
-    position: Platform engineer
-    website: https://www.datacafethailand.com/
-    startDate: 2023-01-03
+  - name: Durian Corp
+    position: Chief Data Scientist
+    website: https://www.duriancorp.com
+    startDate: 2019-01-01
     endDate:
-    # highlights:
+    highlights:
+      - Responsible for day-to-day operations of the data science team
+      - Responsible for the design and implementation of the data platform and solution
+      - Conducted regular training sessions for the data science team and clients
+      - ---
   - name: Baania
     position: Head of platform engineering
     website: https://www.baania.com
@@ -86,43 +90,44 @@ work:
     startDate: 2015-01-01
     endDate: 2018-12-31
 education:
-  - institution: Rangsit University
-    area: Information and Communication Technology
-    studyType: Bachelor
-    startDate: "2015"
-    endDate: "2018"
+  - institution: Massachusets Institute of Technology
+    area: Computational Linguistics (Natural Language Processing)
+    studyType: Masters
+    startDate: "2010"
+    endDate: "2012"
+  - institution: The Ohio State University
+    area: Molecular Genetics
+    studyType: Masters
+    startDate: "2011"
+    endDate: "2012"
+  - institution: The Ohio State University
+    area: Linguistics
+    studyType: Bachelors
+    startDate: "2007"
+    endDate: "2011"
+  - institution: The Ohio State University
+    area: Molecular Genetics
+    studyType: Bachelors
+    startDate: "2007"
+    endDate: "2011"
+  
 certificates:
-  - name: HashiCorp Ambassador 2023
+  - name: Data Science with Python Expert
     date: 2023
-    issuer: HashiCorp
-    url: https://www.credly.com/badges/850db8f0-746b-4ffb-bd5e-06d84f048f1b
-  - name: AWS Certified Solutions Architect – Associate
-    date: 2023
-    issuer: AWS
-    url: https://www.credly.com/badges/0e07c3db-19c2-4ade-bb6c-66df4929fc5c/public_url
-  - name: Google Cloud Professional Cloud Architect
-    date: 2022
-    issuer: Google Cloud Platform
-    url: https://google.accredible.com/af628a29-bca4-4987-aba5-4bb1456dfe3a
-  - name: AWS Community Builder 2023
-    date: 2023
-    issuer: AWS
-    url: 
-      https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=karn%2Bwong&cb-cards.q_operator=AND
-  - name: Dagster Essentials
-    date: 2023
-    issuer: Dagster Labs
-    url: https://courses.dagster.io/certificates/dpy66jhmvg
+    issuer: IBM
+    url: https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url
 publications:
   - name: Using Classification Technique for Customer Relationship Management based on Thai Social Media Data
     publisher: ICCAE
     releaseDate: 2019-02-01
-    website: https://doi.org/10.1145/3313991.3314010
+    website: [doi](http://kb.osu.edu/dspace/handle/1811/52072)
 languages:
   - language: English
-    fluency: Native or bilingual proficiency
+    fluency: Native
   - language: Thai
-    fluency: Native or bilingual proficiency
+    fluency: Professional Prof
+  - language: German
+    fluency: Native
 projects:
   # ---------------- devops ----------------
   - name: self-hosted
