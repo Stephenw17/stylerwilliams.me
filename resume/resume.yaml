@@ -120,7 +120,7 @@ publications:
   - name: Using Classification Technique for Customer Relationship Management based on Thai Social Media Data
     publisher: ICCAE
     releaseDate: 2019-02-01
-    website: [doi](http://kb.osu.edu/dspace/handle/1811/52072)
+    website: http://kb.osu.edu/dspace/handle/1811/52072
 languages:
   - language: English
     fluency: Native
