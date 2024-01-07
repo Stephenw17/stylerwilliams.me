@@ -3,9 +3,7 @@ baseURL: https://stylerwilliams.me/
 # baseURL: "/"
 title: S. Tyler Williams
 paginate: 5
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+theme: PaperMod
 
 
 
