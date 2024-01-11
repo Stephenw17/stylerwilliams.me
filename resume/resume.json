@@ -31,79 +31,6 @@
         "Conducted regular training sessions for the data science team and clients",
         "---"
       ]
-    },
-    {
-      "name": "Baania",
-      "position": "Head of platform engineering",
-      "website": "https://www.baania.com",
-      "startDate": "2022-10-01",
-      "endDate": "2023-12-28",
-      "highlights": [
-        "Research and implement internal data platform v2, with CI/CD for integration and unit tests, dependencies and code changes",
-        "Use Terraform with Infracost to asses infrastructure cost to prune unused/underutilized resources, in turn reduce 33% of cloud cost per month (FinOps)",
-        "Design and implement end-to-end cloud-native application deployment (Terraform for infra/secrets, Helm for application deployment, GitHub Actions for CI/CD, Kubernetes for container orchestration)",
-        "Lead a major core product refactoring across ops, engineering and data (data engineering, data science and machine learning engineering). Affected areas: data pipelines, model training pipelines, real-time inference endpoints, database performance optimization, deployment pipelines, local development workflow",
-        "Lead a cloud migration from AWS to GCP",
-        "Introduce H3 spatial indexing to improve spatial queries performance. This also allows any system to obtain the performance gain, since it is not tied to execution engine with spatial support"
-      ]
-    },
-    {
-      "name": "Baania",
-      "position": "Lead Data Engineer | Machine Learning Engineer | SRE",
-      "website": "https://www.baania.com",
-      "startDate": "2022-01-10",
-      "endDate": "2022-09-30",
-      "highlights": [
-        "Enable backend team to perform auto-deployment to ECS with Terraform and GitHub Actions",
-        "Manage repo permissions / secrets / webhooks with Terraform",
-        "Research BI solution to consolidate fragmented dashboard platforms into a single one",
-        "Setup Grafana for centralized metrics and logs monitoring",
-        "Introduce Sourcegraph to help with code search and refactoring",
-        "Setup GitOps for Terraform to enable collaboration between different teams, in turn reducing configuration drift",
-        "Architect end-to-end machine learning project involving reproducible data / model training pipelines, hyper-parameter tuning, CI/CD for inference API endpoint (MLOps). Real-time model performance dashboard and tracing via request id are also implemented via Grafana"
-      ]
-    },
-    {
-      "name": "Baania",
-      "position": "Senior Data Engineer",
-      "website": "https://www.baania.com",
-      "startDate": "2021-01-29",
-      "endDate": "2022-01-10",
-      "highlights": [
-        "Reduce development time for ETL pipelines from a week to 1 day via workflow redesign + codebase refactoring",
-        "Mentor data engineers",
-        "Consult other teams as a platform engineer",
-        "Set up alerts & monitoring to automatically notify task failures (ChatOps)",
-        "Create a script to automatically grant postgres access permission based on user groups, with option for special permissions per-user basis",
-        "Optimize a large spark pipeline that fails often due to OOM with divide-and-conquer method for unlimited scaling",
-        "Reduce runtime for PR code quality checks by 90% to shorten feedback loop cycle",
-        "Set up secrets management using SOPS/Terraform/AWS SSM, for improved security and secrets rotation",
-        "Launch Baania Engineering Blog, a platform to showcase how Baania does things behind the scenes",
-        "Reduce employee onboarding time per employee from a few days to 30 minutes via a setup script to setup necessary tools, applications and environment for development",
-        "Optimize a nearby POI lookup in PostGIS against 4 million rows with lochash, in turn reducing query runtime and resources requirements. Runtime is reduced from 10 minutes to 2 seconds"
-      ]
-    },
-    {
-      "name": "Baania",
-      "position": "Data Engineer",
-      "website": "https://www.baania.com",
-      "startDate": "2018-04-02",
-      "endDate": "2021-01-29",
-      "highlights": [
-        "Create and maintain data gathering infrastructure for daily ingestion and processing to be stored in data lake (S3)",
-        "Create and optimize machine learning models to achieve near-realtime performance",
-        "Create and maintain ETL pipelines via task orchestrator to reduce data update frequency from once a month to daily",
-        "Deploy and maintain ML via cloud services to reduce ML deployment time from a day to within minutes",
-        "Mentor data scientists",
-        "Automate infrastructure and governance using Terraform",
-        "Package cron services to AWS ECS and invoke via AWS ECS Task to cut down cost from 50 USD / year to 0.1 USD / year"
-      ]
-    },
-    {
-      "name": "-",
-      "position": "IT Support & SysAdmin",
-      "startDate": "2015-01-01",
-      "endDate": "2018-12-31"
     }
   ],
   "education": [
@@ -142,6 +69,12 @@
       "date": 2023,
       "issuer": "IBM",
       "url": "https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url"
+    },
+    {
+      "name": "Advanced Learning Algorthms",
+      "Date": 2023,
+      "issuer": "Standord University",
+      "url": "https://www.coursera.org/account/accomplishments/records/TU7LCLUUUSPE"
     }
   ],
   "publications": [
