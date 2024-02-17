@@ -29,3 +29,13 @@ For me, the most important aspect of my role is emphasizing the importance of re
 ## Tl;dr Summary
 
 In summary, my role at DAIL is all about applying a blend of computational linguistics, network analysis, computer vision, and AI to solve real-world problems. It's a mix of in-depth research, practical application, and a continuous pursuit of innovation in the data science arena.
+
+
+## Some light (or heavy) Reading: 
+
+[**Unmasking Digital Harassment in Thailand: A Study of Online Smear Campaigns and the Impact on Civil Society**](https://www.the101.world/unmasking-digital-harassment/)
+This was a collaborative effort, where I and Suppalerk Petchpol were charged with exploring online discourses in a very *suspicious* network of account who were regularly seen to target civic society actors (activists, etc.). Ultimately, we uncovered several networks of malicious possibly state-backed actors (attribution was not our concern), techniques and tactics adopted by these actors, conducted rigurous semnatic mapping in order to understand how these actors are attacked at senstive points in time, and quantified the extent to which online activity pre-dates offline legal precedings. Our efforts are to be published in a special edition of Democratization in October 2024. 
+
+
+[**OSINT-Based Actor Mapping of Online Harassment**](https://www.the101.world/digital-harassment-data-analysis/)
+In this collaborative article, a precursor to the above, Supaplerk, Wongpun, Dr. Janjira and I set to investigating the *interesting* characteristics of accounts who actively engaged in coordinated online harassment/targeting of certain actors. This inception study revealed that certain accounts do not **sleep**, are prolific in their attempts, and appear to be firmly embedded across 4 distinct communities, which through coordination allows these actors to espouse sophisticated and highly targeted attacks.  
