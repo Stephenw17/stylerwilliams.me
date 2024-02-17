@@ -63,6 +63,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: Homepage and blog by S. Tyler Williams
   author: S. Tyler Williams
+  customCSS: ["css/custom.css"]
 
   assets:
     disableFingerprinting: true
