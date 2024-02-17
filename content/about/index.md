@@ -56,4 +56,3 @@ Fun fact: [this dude](https://faithstory.info/) stole my homelab configuration, 
 
 - [Recommended books]({{< ref "/books" >}})
 - [Recommended music]({{< ref "/music" >}})
-- [Talks]({{< ref "/talks" >}})
