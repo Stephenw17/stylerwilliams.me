@@ -2,5 +2,11 @@
 
 # Ignore these files
 resume/node_modules/
-/content/posts/
-/content/talks.md
+/content/posts/2017
+/content/posts/2018
+/content/posts/2019
+/content/posts/2020
+/content/posts/2021
+/content/posts/2022
+/content/posts/2023
+/content/posts/unused
