@@ -8,51 +8,17 @@ ShowToc: false
 
 <!--- ![me-at-grill-the-data](/about/me-at-grill-the-data.jpg) -->
 
-I'm currently a platform engineer at [Data Cafe (Thailand)](https://www.datacafethailand.com/).
+As the Chief Data Scientist at Durian Corp's Data and AI Lab (DAIL), I spearhead our efforts in pioneering change within the realms of data, analytics, and artificial intelligence. With over 15 years of experience, my journey has been dedicated to delivering bespoke data solutions, each uniquely tailored to meet our customers' diverse needs.
 
-Previously I was a Data Engineer, Machine Learning Engineer and Site Reliability Engineer. Before that I was doing IT Support and System Administration.
+At the core of my work lies a profound commitment to change management. This commitment is not just about adapting to the evolving landscape of technology, but also about steering these changes in ways that are both innovative and practical. Currently, my team and I are engrossed in a series of RAG experiments, a testament to our dedication to staying at the forefront of industry advancements.
 
-My expertise lies in the realms of data engineering, machine learning, and devops, where I optimize processes and drive impactful projects.
+My academic background in computational linguistics serves as the foundation of my professional expertise. Today, my focus predominantly lies in network analysis, ranging from social media intelligence and open-source intelligence (OSINT) to network optimization and path analysis. Machine learning, ERP data systems, and research in socially beneficial applications of technology are not just areas of my expertise, but also my passion. I place a special emphasis on research, believing that the most impactful innovations emerge from a thorough understanding of the underlying science.
 
-Apart from my professional pursuits, I actively contribute to tech & data communities and open-source projects.
+One of my favorite aspects of this field is the opportunity to work on projects that involve mixed methods approaches, especially those that integrate online-to-offline behaviors. There's something uniquely satisfying about unraveling the complex tapestry of human interactions in the digital era and translating these insights into actionable strategies.
 
-When I have lessons to share I enjoy speaking at conferences.
+Currently, my research is focused on developing novel temporal algorithms. These are specifically designed for detecting coordinated posting and other anomalies in social networks. It's a challenging yet exhilarating frontier, one that balances the fine line between academic rigor and real-world application.
 
-Surprisingly, I do enjoy cooking a lot, but not as much as tinkering with my [homelab](https://github.com/kahnwong/self-hosted).
+Outside of work, I embody the spirit of a quasi-academic, always eager to delve into the intricacies of data science and AI, yet ensuring my discourse remains accessible. I find joy in sharing my insights and learning from others, whether it's through professional collaborations, speaking engagements, or informal community discussions.
 
-I’m probably listening to symphonic heavy metal.
+In essence, my role at DAIL and my broader professional journey can be encapsulated as an endless pursuit of knowledge, innovation, and the practical application of cutting-edge technology for the greater good. Some might call it a blend of DataSci, NetAnalysis, and AI with a twist of societal impact – and they wouldn't be wrong!
 
-Many people wonder what I do, because I seem to hang out in a lot of communities, to which I tell them it's DevSecMLFinDataOps 😃.
-
-Fun fact: [this dude](https://faithstory.info/) stole my homelab configuration, but I already picked his brain for management and leadership skills 🫢.
-
-### Timeline
-
-![Timeline](images/2023-10-09-14-13-19.png)
-
-### Active Communities
-
-- [Data Engineering Discord](https://invite.gg/dataengineering) (English)
-- [Data Science Discord](https://discord.com/invite/UYNaemm) (English)
-- [DevOps, SRE, & Infrastructure Discord](https://discord.com/invite/VEEnHkPzY6) (English)
-- [Data Engineer Cafe](https://discuss.dataengineercafe.io) (Thai)
-
-### Licenses & Certifications
-
-| Name                                                                                                                   | Badge                                                        |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| [HashiCorp Ambassador 2023](https://www.credly.com/badges/850db8f0-746b-4ffb-bd5e-06d84f048f1b)                        | ![HashiCorp Ambassador 2023](images/2023-10-16-21-24-44.png) |
-|[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/0e07c3db-19c2-4ade-bb6c-66df4929fc5c/public_url) | ![AWS SA Associate](images/2023-11-11-12-46-35.png)|
-| [Google Cloud Professional Cloud Architect](https://google.accredible.com/af628a29-bca4-4987-aba5-4bb1456dfe3a) | ![GCP PCA](images/2023-10-16-21-25-26.png)                   |
-|[AWS Community Builder 2022](https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=karn%2Bwong&cb-cards.q_operator=AND)|![AWS CB 22](images/2023-10-16-21-32-01.png)|
-
-### Friends
-
-- [Apiporn Simapornchai (Faith)](https://faithstory.info)
-- [Snuufix](https://snuu.io/)
-- [Chris Dong](https://cdong.us/)
-
----
-
-- [Recommended books]({{< ref "/books" >}})
-- [Recommended music]({{< ref "/music" >}})
