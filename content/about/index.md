@@ -8,17 +8,24 @@ ShowToc: false
 
 <!--- ![me-at-grill-the-data](/about/me-at-grill-the-data.jpg) -->
 
-As the Chief Data Scientist at Durian Corp's Data and AI Lab (DAIL), I spearhead our efforts in pioneering change within the realms of data, analytics, and artificial intelligence. With over 15 years of experience, my journey has been dedicated to delivering bespoke data solutions, each uniquely tailored to meet our customers' diverse needs.
+## Professional Journey
 
-At the core of my work lies a profound commitment to change management. This commitment is not just about adapting to the evolving landscape of technology, but also about steering these changes in ways that are both innovative and practical. Currently, my team and I are engrossed in a series of RAG experiments, a testament to our dedication to staying at the forefront of industry advancements.
+As the Chief Data Scientist at Durian Corp's Data and AI Lab (DAIL), I lead a team dedicated to developing and implementing data, analytics, and AI solutions. With a background stretching over 15 years in this domain, I have honed my skills in delivering custom solutions that cater to the specific needs of our clients.
 
-My academic background in computational linguistics serves as the foundation of my professional expertise. Today, my focus predominantly lies in network analysis, ranging from social media intelligence and open-source intelligence (OSINT) to network optimization and path analysis. Machine learning, ERP data systems, and research in socially beneficial applications of technology are not just areas of my expertise, but also my passion. I place a special emphasis on research, believing that the most impactful innovations emerge from a thorough understanding of the underlying science.
+### Change Management and R&D
 
-One of my favorite aspects of this field is the opportunity to work on projects that involve mixed methods approaches, especially those that integrate online-to-offline behaviors. There's something uniquely satisfying about unraveling the complex tapestry of human interactions in the digital era and translating these insights into actionable strategies.
+In my current role, change management is a key focus. This involves not just keeping pace with the rapid advancements in our field but also applying these changes in practical, client-focused ways. We're actively engaged in RAG experiments in our R&D backlog, exploring novel approaches to embeddings, developing new temporal anomaly detection systems, and enjoying a rekindled interest in Social Network Analysis and others!
 
-Currently, my research is focused on developing novel temporal algorithms. These are specifically designed for detecting coordinated posting and other anomalies in social networks. It's a challenging yet exhilarating frontier, one that balances the fine line between academic rigor and real-world application.
+## Core Expertise
 
-Outside of work, I embody the spirit of a quasi-academic, always eager to delve into the intricacies of data science and AI, yet ensuring my discourse remains accessible. I find joy in sharing my insights and learning from others, whether it's through professional collaborations, speaking engagements, or informal community discussions.
+### Computational Linguistics and Network Analysis
 
-In essence, my role at DAIL and my broader professional journey can be encapsulated as an endless pursuit of knowledge, innovation, and the practical application of cutting-edge technology for the greater good. Some might call it a blend of DataSci, NetAnalysis, and AI with a twist of societal impact – and they wouldn't be wrong!
+My professional foundation is rooted in computational linguistics, which has been pivotal in shaping my approach to data science. Nowadays, my work mainly revolves around network analysis. This encompasses a broad spectrum of applications from social media intelligence and OSINT to optimizing network paths. I enjoy using both traditional statistics and machine learning on large datasets, including ERP data systems, as these are critical components of my daily work.
 
+### Research and Social Impact
+
+For me, the most important aspect of my role is emphasizing the importance of research, especially when it comes to technology applications that yield social benefits. I have a particular interest in projects that employ mixed methods, especially those that bridge online and offline behaviors. The challenge of decoding complex patterns in digital interactions and converting these into meaningful strategies is what drives much of my work.
+
+## Tl;dr Summary
+
+In summary, my role at DAIL is all about applying a blend of computational linguistics, network analysis, computer vision, and AI to solve real-world problems. It's a mix of in-depth research, practical application, and a continuous pursuit of innovation in the data science arena.
