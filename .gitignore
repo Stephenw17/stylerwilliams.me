@@ -3,3 +3,4 @@
 # Ignore these files
 resume/node_modules/
 /content/posts/
+/content/talks.md
