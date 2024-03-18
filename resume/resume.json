@@ -38,40 +38,35 @@
       "area": "Computational Linguistics",
       "studyType": "B.S.",
       "startDate": "",
-      "endDate": "2011",
-      "gpa": "3.9"
+      "endDate": "2011"
     },
     {
       "institution": "The Ohio State University",
       "area": "German",
       "studyType": "B.A.",
       "startDate": "",
-      "endDate": "2011",
-      "gpa": "3.7"
+      "endDate": "2011"
     },
     {
       "institution": "The Ohio State University",
       "area": "Molecular Genetics",
       "studyType": "B.S.",
       "startDate": "",
-      "endDate": "2011",
-      "gpa": "3.8"
+      "endDate": "2011"
     },
     {
       "institution": "Massachusetts Institute of Technology",
       "area": "Computational Linguistics (NLP)",
       "studyType": "M.Sc.",
       "startDate": "",
-      "endDate": "2012",
-      "gpa": "3.8"
+      "endDate": "2012"
     },
     {
       "institution": "The Ohio State University",
       "area": "Molecular Genetics",
       "studyType": "M.Sc.",
       "startDate": "",
-      "endDate": "2011",
-      "gpa": "3.76"
+      "endDate": "2011"
     }
   ],
   "work": [
@@ -115,7 +110,7 @@
       "name": "The Ohio State University",
       "position": "Research Assistant",
       "startDate": "2010-09-01",
-      "endDate": "2012-06-31",
+      "endDate": "2012-06",
       "highlights": [
         "Conducted research on the syntax and semantics of Mushunguli, a Bantu language spoken in Somlia.",
         "Developed a novel method for representing complex gender agreement in languages with multi-class noun classes."
@@ -125,7 +120,7 @@
       "name": "Massachusets Institute of Technology",
       "position": "Research Assistant",
       "startDate": "2011-09-01",
-      "endDate": "2012-06-31",
+      "endDate": "2012-06",
       "highlights": [
         "Conducted research on the lens filters for large CNN models (neural networks)",
         "Worked with a multi-university team of research on CMUSphinx, an open source speech recogniton software."
