@@ -51,7 +51,7 @@ certificates:
     url: https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url
   - name: Advanced Learning Algorthms
     Date: 2023
-    issuer: Standord University
+    issuer: Stanford University
     url: https://www.coursera.org/account/accomplishments/records/TU7LCLUUUSPE
 publications:
   - name: Using Classification Technique for Customer Relationship Management based on Thai Social Media Data
@@ -180,21 +180,12 @@ interests:
     keywords:
       - Anthropology
       - Linguistics
-      - Psychology
-      - Sociology
-  - name: Music
-    keywords:
-      - Symphonic Heavy Metal
-      - Power Metal
-      - Folk Metal
-      - Classical Crossover
-      - Operatic Pop
+      - Political Science 
+      - Gender & Identity Theory 
   - name: Technology
     keywords:
-      - Platform Engineering
-      - DevX
-      - Kubernetes
-      - DevOps / DataOps / MLOps
+      - Data Science
+      - DevOps
       - Scaling & Optimization
 volunteer:
   - organization: Data Engineering Discord

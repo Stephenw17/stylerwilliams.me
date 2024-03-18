@@ -60,30 +60,44 @@ work:
     position: Chief Data Scientist
     website: https://www.duriancorp.com
     startDate: 2019-01-01
-    endDate: "Present"
+    endDate:
     highlights:
-      - Responsible for day-to-day operations of the data science team
-      - Responsible for the design and implementation of the data platform and solution
-      - Conducted regular training sessions for the data science team and clients
+      - Responsible for the design and implementation of data platform and solutions
+      - Conducted regular training sessions for the data science team and clients on digital transformation and data science
       - Lead a team of 12 developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.
-      - Provide business-critical, custom-designed data solutions for clients across various industries including finance, healthcare, retail. 
+      - Provide business-critical, custom-designed data solutions for clients across various industries including finance, healthcare, retail, and pharma. 
       - Work with researchers from NGOs, government, and academia to develop and implement data-driven solutions for social change and social good!  
   - name: EdTech (Thailand) Co. Ltd.
     position: Chief Technology Officer
     startDate: "2018-06"
-    endDate: "Present"
+    endDate:
     highlights:
       - Responsible for databasing speech data, creating statistically-driven speech models, convolutional neural network training, and data acquisition.
       - Oversaw content and curriculum development in English with a team of 7 content creators.
       - Maintained a growing database of speech data for model training.
   - name: California Degree Co. Ltd
-    position: General Manager & Head Teacher
+    position: General Manager & Co-Owner
     startDate: "2017-05-01"
-    endDate: "Present"
+    endDate:
     highlights:
       - Oversaw Databasing, Customer Regression Models, Projection, and Forecasting.
       - Responsible for customer evaluation and placement assessments.
       - Developed highly tailored testing and learning materials.
+  - name: The Ohio State University
+    position: Research Assistant
+    startDate: "2010-09-01"
+    endDate: "2012-06-31"
+    highlights:
+      - Conducted research on the syntax and semantics of Mushunguli, a Bantu language spoken in Somlia.
+      - Developed a novel method for representing complex gender agreement in languages with multi-class noun classes.
+  - name: Massachusets Institute of Technology
+    position: Research Assistant
+    startDate: "2011-09-01"
+    endDate: "2012-06-31"
+    highlights:
+      - Conducted research on the lens filters for large CNN models (neural networks)
+      - Worked with a multi-university team of research on CMUSphinx, an open source speech recogniton software.
+
 skills:
   - name: Linguistics
     keywords: ["Field Methods", "Syntactic Theory", "Semantic Theory", "Language Acquisition"]
@@ -94,25 +108,11 @@ skills:
 
 languages:
   - language: English
-    fluency: Fluent
+    fluency: Native or bilingual proficiency
   - language: German
-    fluency: Fluent
+    fluency: Native or bilingual proficiency
   - language: Thai
     fluency: Near Fluent
-  - language: French
-    fluency: Currently Learning
-  - language: Russian
-    fluency: Conversational
-  - language: Hebrew
-    fluency: Conversational
-  - language: Dutch
-    fluency: Conversational
-  - language: Finnish
-    fluency: Currently Learning
-  - language: Afrikaans
-    fluency: Currently Learning
-  - language: Irish Gaelic
-    fluency: Currently Learning
 
 volunteer:
   - organization: Student Athlete Support Services
@@ -217,18 +217,9 @@ skills:
     keywords:
       - Docker
       - Kubernetes
-      - Helm
       - Grafana
-      - Prometheus
-      - Terraform
-      - MinIO
-
-  - name: DevOps
-    keywords:
-      - GitHub Actions
-      - Jenkins
-      - CI/CD Pipelines
-      - Ansible
+      - Telegraf
+      - InfluxDB
 
   - name: Data Science / Machine Learning
     keywords:
@@ -298,6 +289,7 @@ skills:
       - Seaborn
       - Plotly
       - Dash by Plotly
+      - Streamlit
 
   - name: Version Control & Collaboration
     keywords:
@@ -323,8 +315,5 @@ skills:
       - PyToch
       - Model Monitoring
       - Model Deployment
-
-
-
 
 # End of the YAML file
