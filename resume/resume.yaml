@@ -12,38 +12,7 @@ basics:
     - network: LinkedIn
       username: stephentylerwilliams
       url: https://www.linkedin.com/in/stephentylerwilliams/
-work:
-  - name: Durian Corp
-    position: Chief Data Scientist
-    website: https://www.duriancorp.com
-    startDate: 2019-01-01
-    endDate:
-    highlights:
-      - Responsible for day-to-day operations of the data science team
-      - Responsible for the design and implementation of the data platform and solution
-      - Conducted regular training sessions for the data science team and clients
-      - ---
-education:
-  - institution: Massachusets Institute of Technology
-    area: Computational Linguistics (Natural Language Processing)
-    studyType: Masters
-    startDate: "2010"
-    endDate: "2012"
-  - institution: The Ohio State University
-    area: Molecular Genetics
-    studyType: Masters
-    startDate: "2011"
-    endDate: "2012"
-  - institution: The Ohio State University
-    area: Linguistics
-    studyType: Bachelors
-    startDate: "2007"
-    endDate: "2011"
-  - institution: The Ohio State University
-    area: Molecular Genetics
-    studyType: Bachelors
-    startDate: "2007"
-    endDate: "2011"
+
 certificates:
   - name: Data Science with Python Expert
     date: 2023
@@ -51,195 +20,311 @@ certificates:
     url: https://www.credly.com/badges/5cf74eed-b4e2-464f-b17f-328314faf1d4/public_url
   - name: Advanced Learning Algorthms
     Date: 2023
-    issuer: Standord University
+    issuer: Stanford University
     url: https://www.coursera.org/account/accomplishments/records/TU7LCLUUUSPE
-publications:
-  - name: Using Classification Technique for Customer Relationship Management based on Thai Social Media Data
-    publisher: ICCAE
-    releaseDate: 2019-02-01
-    website: http://kb.osu.edu/dspace/handle/1811/52072
+
+education:
+  - institution: The Ohio State University
+    area: Computational Linguistics
+    studyType: B.S.
+    startDate: ""
+    endDate: "2011"
+    gpa: "3.9"
+  - institution: The Ohio State University
+    area: German
+    studyType: B.A.
+    startDate: ""
+    endDate: "2011"
+    gpa: "3.7"
+  - institution: The Ohio State University
+    area: Molecular Genetics
+    studyType: B.S.
+    startDate: ""
+    endDate: "2011"
+    gpa: "3.8"
+  - institution: Massachusetts Institute of Technology
+    area: Computational Linguistics (NLP)
+    studyType: M.Sc.
+    startDate: ""
+    endDate: "2012"
+    gpa: "3.8"
+  - institution: The Ohio State University
+    area: Molecular Genetics
+    studyType: M.Sc.
+    startDate: ""
+    endDate: "2011"
+    gpa: "3.76"
+
+work:
+  - name: Durian Corp
+    position: Chief Data Scientist
+    website: https://www.duriancorp.com
+    startDate: 2019-01-01
+    endDate: "Present"
+    highlights:
+      - Responsible for day-to-day operations of the data science team
+      - Responsible for the design and implementation of the data platform and solution
+      - Conducted regular training sessions for the data science team and clients
+      - Lead a team of 12 developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.
+      - Provide business-critical, custom-designed data solutions for clients across various industries including finance, healthcare, retail. 
+      - Work with researchers from NGOs, government, and academia to develop and implement data-driven solutions for social change and social good!  
+  - name: EdTech (Thailand) Co. Ltd.
+    position: Chief Technology Officer
+    startDate: "2018-06"
+    endDate: "Present"
+    highlights:
+      - Responsible for databasing speech data, creating statistically-driven speech models, convolutional neural network training, and data acquisition.
+      - Oversaw content and curriculum development in English with a team of 7 content creators.
+      - Maintained a growing database of speech data for model training.
+  - name: California Degree Co. Ltd
+    position: General Manager & Head Teacher
+    startDate: "2017-05-01"
+    endDate: "Present"
+    highlights:
+      - Oversaw Databasing, Customer Regression Models, Projection, and Forecasting.
+      - Responsible for customer evaluation and placement assessments.
+      - Developed highly tailored testing and learning materials.
+skills:
+  - name: Linguistics
+    keywords: ["Field Methods", "Syntactic Theory", "Semantic Theory", "Language Acquisition"]
+  - name: German Studies
+    keywords: ["Romantic Literature", "Local German-Speaking Dialects"]
+  - name: Genetics
+    keywords: ["Genetic Related Disorders", "Microbiological Genetic Disorders", "Human Disease Genetics", "Statistical Genetics"]
+
 languages:
   - language: English
-    fluency: Native
-  - language: Thai
-    fluency: Professional Prof
+    fluency: Fluent
   - language: German
-    fluency: Native
-projects:
-  # ---------------- devops ----------------
-  - name: self-hosted
-    url: https://github.com/kahnwong/self-hosted/
-    highlights:
-      - "Alternative / self-hosted version for popular subscription services: Netflix, Spotify, LastPass, Trello, Dropbox, NordVPN, etc."
-      - Managed via docker-compose and helm
-      - Use Caddy for reverse-proxy
-      - Use terraform to manage DNS via Cloudflare
-    keywords:
-      - docker
-      - kubernetes
-      - helm
-      - terraform
-    startDate: 2017-12-01
-    type: devops
-  - name: nix
-    highlights:
-      - A cross-platform setup script that works with both Linux and Mac.
-    keywords:
-      - Nix
-      - environment
-      - dotfiles
-      - package manager
-    startDate: 2022-11-30
-    type: devops
-    url: https://www.karnwong.me/posts/2022/12/cross-platform-package-env-management-with-nix/
-  - name: Proxmox VM Selector
-    highlights:
-      - A simple TUI to select which Proxmox VM to start/stop.
-    keywords:
-      - proxmox
-      - tui
-    startDate: 2023-12-21
-    endDate: 2023-12-21
-    type: devops
-    url: https://github.com/kahnwong/proxmox-vm-selector
-  - name: GKE Autopilot Cost Calculator
-    highlights:
-      - Calculate GKE Autopilot workloads cost.
-      - Available for normal application deployments and spark-submit jobs.
-    keywords:
-      - streamlit
-      - gke
-    startDate: 2023-09-12
-    endDate: 2023-09-12
-    type: devops
-    url: https://gke-autopilot-cost-calculator.karnwong.me/
-  - name: pgconn
-    highlights:
-      - pgcli wrapper to connect to PostgreSQL database specified in db.yaml. Proxy/tunnel connection is automatically created and killed when pgcli is
-        exited.
-    keywords:
-      - postgres
-      - ssh tunneling
-      - cli
-    startDate: 2023-08-24
-    endDate: 2023-08-31
-    type: devops
-    url: https://github.com/kahnwong/pgconn
-  - name: Vercel - Multi Branch Deployment
-    highlights:
-      - Use GitHub Actions to deploy a frontend project from different branches (dev, uat, master), each with their own preview environment.
-    keywords:
-      - terraform
-      - github actions
-      - vercel
-    startDate: 2023-06-17
-    endDate: 2023-06-17
-    type: devops
-    url: https://github.com/kahnwong/vercel-multi-branch-deployment
-  # ---------------- data ----------------
-  - name: Spark on Kubernetes
-    highlights:
-      - Run spark jobs on kubernetes, which can be used both locally and on production environment.
-    keywords:
-      - spark
-      - kubernetes
-      - minio
-      - finops
-      - devex
-    startDate: 2023-09-09
-    endDate: 2023-09-10
-    type: data
-    url: https://www.karnwong.me/posts/2023/09/spark-on-kubernetes/
-  - name: Dataframe Frameworks Showdown
-    highlights:
-      - Benchmark performance between duckdb, polars and spark. In addition to runtime, RAM usage is also provided.
-    keywords:
-      - duckdb
-      - polars
-      - spark
-      - dataframe
-      - data engineering
-    startDate: 2023-04-05
-    endDate: 2023-04-10
-    type: data
-    url: https://www.karnwong.me/posts/2023/04/duckdb-vs-polars-vs-spark/
-  - name: Impute Pipelines
-    highlights:
-      - Use machine learning to fill in missing data.
-      - Utilize hyperparameter tuning to find the optimum parameters.
-    keywords:
-      - Machine Learning
-      - data science
-      - hyperparameter tuning
-    startDate: 2019-11-28
-    endDate: 2019-12-23
-    url: https://www.karnwong.me/posts/2020/05/impute-pipelines/
-    type: data
-interests:
-  - name: Humanities
-    keywords:
-      - Anthropology
-      - Linguistics
-      - Psychology
-      - Sociology
-  - name: Music
-    keywords:
-      - Symphonic Heavy Metal
-      - Power Metal
-      - Folk Metal
-      - Classical Crossover
-      - Operatic Pop
-  - name: Technology
-    keywords:
-      - Platform Engineering
-      - DevX
-      - Kubernetes
-      - DevOps / DataOps / MLOps
-      - Scaling & Optimization
+    fluency: Fluent
+  - language: Thai
+    fluency: Near Fluent
+  - language: French
+    fluency: Currently Learning
+  - language: Russian
+    fluency: Conversational
+  - language: Hebrew
+    fluency: Conversational
+  - language: Dutch
+    fluency: Conversational
+  - language: Finnish
+    fluency: Currently Learning
+  - language: Afrikaans
+    fluency: Currently Learning
+  - language: Irish Gaelic
+    fluency: Currently Learning
+
 volunteer:
-  - organization: Data Engineering Discord
-    position: Moderator / Staff & Frequent Contributor
-    startDate: 2020
-  - organization: Data Science Discord
-    position: Frequent Contributor
-    startDate: 2021
-  - organization: DevOps, SRE & Infrastructure Discord
-    position: Frequent Contributor
-    startDate: 2021
-  - organization: Data Engineer Cafe
-    position: Frequent Contributor
-    startDate: 2022
+  - organization: Student Athlete Support Services
+    position: Level III Master Tutor
+    startDate: "2010-09-01"
+    endDate: "2013-06-31"
+  - organization: The Ohio State University
+    position: Head Linguistics Tutor and Ersatz Professor/Lecturer
+    startDate: "2011-07-01"
+    endDate: "2013-06-31"
+  - organization: Ohio German Language School
+    position: German Language Teacher/Tutor
+    startDate: "2010-09-01"
+    endDate: "2013-06-31"
+
+publications:
+  - name: "Concurrent Filtering and Smoothing: A Parallel Architecture for Real-Time Navigation and Full Smoothing"
+    authors: ["Stephen T. Williams", "V. Indelman", "M. Kaess", "R. Roberts", "F. Leonard Dellaert"]
+    journal: The International Journal of Robotics Research
+    year: 2014
+  - name: "Gender Conflict Resolution in Mushunguli"
+    authors: ["Stephen T. Williams", "David Odden, Ph.D."]
+    journal: The Ohio State University - Department of Linguistics
+    year: 2012
+    url: http://kb.osu.edu/dspace/handle/1811/52072
+
+interests:
+  - name: Areas of Research
+    keywords: ["Semnatic Embeddings", "RAG Optimization", "Influence Operation Identification", "Temporal Point Processing & GMM"]
+  - name: Linguistics
+    keywords: ["Syntax", "Semantics", "Language Acquisition"]
+  - name: German Literature
+    keywords: ["Romantic Literature", "Local Dialects"]
+  - name: Molecular Genetics
+    keywords: ["Genetic Disorders", "Statistical Genetics"]
+  - name: Humanities
+    keywords: ['Anthropology', 'Linguistics', 'Political Science', 'Gender & Identity Theory']
+  - name: Technology
+    keywords: ['Data Science', 'DevOps', 'Scaling & Optimization']
+
+additional:
+  certifications:
+    - name: "Großes Deutsches Sprachdiplom Goethe Zertifikat-C2"
+      issuer: Goethe Institut
+      date: "2010-05"
+    - name: "Deutsche Sprachprüfung für den Hochschulzugang (DSH): 3"
+      issuer: Friedrich Wilhelm Universität Bonn
+      date: "2010-03"
+  extracurricular:
+    - activity: "Saga Club, The Ohio State University"
+      position: Secretary
+      years: "2011-2013"
+    - activity: "German Club, The Ohio State University"
+      position: Member
+      years: "2009-2013"
+    - activity: "U-Lings Club, The Ohio State University"
+      position: President Member
+      years: "2011-2012"
+    - activity: "German House, The Ohio State University"
+      position: President
+      years: "2010-2012"
+# Continuing from previous sections...
+
+extracurricular_activities:
+  - name: Tutoring
+    description: Tutored in subjects including Calculus, Biology, German, Linguistics, and Philosophy
+    startDate: "2010-09-01"
+    endDate: "2013-06-31"
+  - name: CTO of Barman Ltd. Via Applet Programming
+    description: Designed and implemented Barman, an iOS app for college students
+    startDate: ""
+    endDate: ""
+
+exchange_programs:
+  - name: Rotary International Youth Exchange
+    location: Saxony, Germany
+    description: Served as a Youth Ambassador, traveled Europe, and became fluent in German
+    startDate: "2005-06-01"
+    endDate: "2006-06-01"
+  - name: Fullbright Study Abroad
+    location: Friedrich Wilhelm University, Bonn, Germany
+    description: Conducted research on local minority "Sorbian" languages
+    startDate: "2011-06"
+    endDate: "2012-06"
+
+academic_honors:
+  - name: Dean’s List of Distinguished Students
+    institution: The Ohio State University
+    years: ""
+  - name: Honors Student - Cum Laude Distinction
+    institution: The Ohio State University
+    years: ""
+  - name: Scholars Graduate Student - Cum Laude
+    institution: The Ohio State University
+    years: ""
+  - name: Distinguished Researcher of the University
+    institution: The Ohio State University
+    year: 2012
+
 skills:
   - name: Cloud Native
     keywords:
       - Docker
       - Kubernetes
       - Helm
-      - K3S
-      - Harbor
       - Grafana
       - Prometheus
-      - Minio
-      - MLflow
+      - Terraform
+      - MinIO
+
   - name: DevOps
     keywords:
-      - Caddy
-      - Terraform
       - GitHub Actions
-      - Proxmox
-  - name: Data / ML
+      - Jenkins
+      - CI/CD Pipelines
+      - Ansible
+
+  - name: Data Science / Machine Learning
+    keywords:
+      - TensorFlow
+      - PyTorch
+      - Keras
+      - XGBoost
+      - LightGBM
+      - Scikit-learn
+      - Pandas
+      - NumPy
+      - SciPy
+
+  - name: Natural Language Processing (NLP)
+    keywords:
+      - BERT
+      - GPT
+      - NLTK
+      - SpaCy
+      - Transformers
+      - Word2Vec
+      - Text Preprocessing
+      - Sentiment Analysis
+      - Named Entity Recognition (NER)
+
+  - name: Network Analysis
+    keywords:
+      - Graph Neural Networks
+      - NetworkX
+      - Gephi
+      - PyGraphistry
+      - Graph Databases (Neo4j, TigerGraph)
+      - Network Path Anlaysis/Modelling 
+      - Coordination Detection
+
+  - name: Data Engineering
     keywords:
       - Apache Spark
+      - Apache Kafka
       - Apache Parquet
-      - Polars / Pandas / DuckDB
-      - Postgres / BigQuery
-      - Scikit-learn / Spark MLib
-      - DVC
-      - H3 / QGIS
-      - FastAPI / Pydantic / Pytest
-  - name: Cloud
+      - Apache Airflow
+      - Databricks
+      - Data Lakes (Delta Lake)
+      - ETL Pipelines
+
+  - name: Cloud Platforms
     keywords:
-      - AWS
-      - GCP
-      - Digital Ocean
-      - Cloudflare
+      - AWS (S3, EC2)
+      - Google Cloud Platform (GCP)
+      - Microsoft Azure
+      - IBM Cloud
+
+  - name: Database Management
+    keywords:
+      - SQL
+      - NoSQL (MongoDB, Cassandra)
+      - BigQuery
+      - PostgreSQL
+      - MySQL
+      - Redis
+
+  - name: Visualization & Dashboarding
+    keywords:
+      - Tableau
+      - PowerBI
+      - Matplotlib
+      - Seaborn
+      - Plotly
+      - Dash by Plotly
+
+  - name: Version Control & Collaboration
+    keywords:
+      - Git
+      - GitHub
+      - GitLab
+      - Bitbucket
+      - Docker
+      - Jupyter Notebooks
+
+  - name: Statistical Analysis
+    keywords:
+      - Hypothesis Testing
+      - Traditional Statistics Methods
+      - Bayesian Methods
+      - Time Series Analysis
+
+  - name: Machine Learning Operations (MLOps)
+    keywords:
+      - MLflow
+      - Kubeflow
+      - TFX (TensorFlow Extended)
+      - PyToch
+      - Model Monitoring
+      - Model Deployment
+
+
+
+
+# End of the YAML file
