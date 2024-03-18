@@ -91,7 +91,7 @@ work:
     endDate: "2012-06"
     highlights:
       - Conducted research on the lens filters for large CNN models (neural networks)
-      - Worked with a multi-university team of research on CMUSphinx, an open source speech recogniton software.
+      - Worked with a multi-university team of researchers on CMUSphinx, an open source speech recogniton software.
 
 skills:
   - name: Linguistics
@@ -112,15 +112,15 @@ languages:
 volunteer:
   - organization: Student Athlete Support Services
     position: Level III Master Tutor
-    startDate: "2010-09-01"
+    startDate: "2010-09"
     endDate: "2013-06"
   - organization: The Ohio State University
     position: Head Linguistics Tutor and Ersatz Professor/Lecturer
-    startDate: "2011-07-01"
+    startDate: "2011-07"
     endDate: "2013-06"
   - organization: Ohio German Language School
     position: German Language Teacher/Tutor
-    startDate: "2010-09-01"
+    startDate: "2010-09"
     endDate: "2013-06"
 
 publications:
