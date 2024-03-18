@@ -113,15 +113,15 @@ volunteer:
   - organization: Student Athlete Support Services
     position: Level III Master Tutor
     startDate: "2010-09-01"
-    endDate: "2013-06-31"
+    endDate: "2013-06"
   - organization: The Ohio State University
     position: Head Linguistics Tutor and Ersatz Professor/Lecturer
     startDate: "2011-07-01"
-    endDate: "2013-06-31"
+    endDate: "2013-06"
   - organization: Ohio German Language School
     position: German Language Teacher/Tutor
     startDate: "2010-09-01"
-    endDate: "2013-06-31"
+    endDate: "2013-06"
 
 publications:
   - name: "Concurrent Filtering and Smoothing: A Parallel Architecture for Real-Time Navigation and Full Smoothing"
