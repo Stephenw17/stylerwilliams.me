@@ -14,6 +14,10 @@ basics:
       url: https://www.linkedin.com/in/stephentylerwilliams/
 
 certificates:
+  - name: IBM Data Science Professional Certificate 
+    date: 2024
+    issuer: IBM
+    url: https://coursera.org/share/7dc441edb99c0660ea9bc40837575c70
   - name: Data Science with Python Expert
     date: 2023
     issuer: IBM
