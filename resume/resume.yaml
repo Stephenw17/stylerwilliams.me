@@ -43,16 +43,6 @@ education:
     studyType: B.S.
     startDate: ""
     endDate: "2011"
-  - institution: Massachusetts Institute of Technology
-    area: Computational Linguistics (NLP)
-    studyType: M.Sc.
-    startDate: ""
-    endDate: "2012"
-  - institution: The Ohio State University
-    area: Molecular Genetics
-    studyType: M.Sc.
-    startDate: ""
-    endDate: "2011"
 
 work:
   - name: Durian Corp
@@ -63,7 +53,7 @@ work:
     highlights:
       - Responsible for the design and implementation of data platform and solutions
       - Conducted regular training sessions for the data science team and clients on digital transformation and data science
-      - Lead a team of 12 developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.
+      - Lead a team of 30+ developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.
       - Provide business-critical, custom-designed data solutions for clients across various industries including finance, healthcare, retail, and pharma. 
       - Work with researchers from NGOs, government, and academia to develop and implement data-driven solutions for social change and social good!  
   - name: EdTech (Thailand) Co. Ltd.
@@ -89,13 +79,6 @@ work:
     highlights:
       - Conducted research on the syntax and semantics of Mushunguli, a Bantu language spoken in Somlia.
       - Developed a novel method for representing complex gender agreement in languages with multi-class noun classes.
-  - name: Massachusets Institute of Technology
-    position: Research Assistant
-    startDate: "2011-09-01"
-    endDate: "2012-06"
-    highlights:
-      - Conducted research on the lens filters for large CNN models (neural networks)
-      - Worked with a multi-university team of researchers on CMUSphinx, an open source speech recogniton software.
 
 skills:
   - name: Linguistics
