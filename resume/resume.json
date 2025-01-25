@@ -42,7 +42,7 @@
     {
       "institution": "The Ohio State University",
       "area": "Computational Linguistics",
-      "studyType": "B.S.",
+      "studyType": "B.A.",
       "startDate": "",
       "endDate": "2011"
     },
@@ -53,27 +53,6 @@
       "startDate": "",
       "endDate": "2011"
     },
-    {
-      "institution": "The Ohio State University",
-      "area": "Molecular Genetics",
-      "studyType": "B.S.",
-      "startDate": "",
-      "endDate": "2011"
-    },
-    {
-      "institution": "Massachusetts Institute of Technology",
-      "area": "Computational Linguistics (NLP)",
-      "studyType": "M.Sc.",
-      "startDate": "",
-      "endDate": "2012"
-    },
-    {
-      "institution": "The Ohio State University",
-      "area": "Molecular Genetics",
-      "studyType": "M.Sc.",
-      "startDate": "",
-      "endDate": "2011"
-    }
   ],
   "work": [
     {
@@ -85,7 +64,7 @@
       "highlights": [
         "Responsible for the design and implementation of data platform and solutions",
         "Conducted regular training sessions for the data science team and clients on digital transformation and data science",
-        "Lead a team of 12 developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.",
+        "Lead a team of 30+ developers, data scientists, data engineers with focus on network analysis, machine learning, and natural language processing.",
         "Provide business-critical, custom-designed data solutions for clients across various industries including finance, healthcare, retail, and pharma.",
         "Work with researchers from NGOs, government, and academia to develop and implement data-driven solutions for social change and social good!"
       ]
